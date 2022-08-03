@@ -23,15 +23,18 @@ const HomepageWrapper =styled.div`
 `;
 const FilterSortWraper =styled.div`
    width: 200px;
-   border: 1px solid red;
+   margin-left: 40px;
+  //  border: 1px solid red;
+   text-align: left;
 `;
 const MusicRecordsWrapper =styled.div`
     width: 100%;
-    border: 1px solid blue;
+    // border: 1px solid blue;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,max-content));
     justify-content: center;
-    grid-gap: 10px;
+    grid-gap: 20px;
 `;
+
 
 

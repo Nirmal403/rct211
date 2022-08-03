@@ -32,4 +32,4 @@ const reducer = (oldState = initState, action) => {
   }
 };
 
-export default reducer;
+export {reducer };
