@@ -1,0 +1,17 @@
+
+function loadData(key){
+    try{
+        let temp=localStorage.get(key);
+        temp = JSON.parse(temp);
+        return temp;
+    }
+    catch (e){
+        return undefined;
+    }
+}
+
+function saveData(key, data){
+    localStorage.setItem(key, JSON.stringify(data));
+}
+
+export {loadData, saveData};
