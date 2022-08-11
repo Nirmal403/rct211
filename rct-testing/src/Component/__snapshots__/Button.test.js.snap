@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the custom Button Should match the snapshot 1`] = `
+<button
+  className="button green 
+    outline"
+  data-testid="customButton"
+>
+  Increment Counter
+</button>
+`;
